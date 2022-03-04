@@ -1,0 +1,8 @@
+#A2 Ejercicios basicos de Python
+#Erick Daniel Sanchez Rodriguez   1803453  Jueves N1-N3
+#Escribe una funcion que toma una lista de strings y los imprima 
+#linea por linea en un marco rectangular. Por ejem. 
+#la lista ["hola", "a", "todos", "esto", "es", "un", "marco"] se imprime:
+lista = ["******", "Hola", "mi", "nombre", "es", "Erick", "Sanchez","******"]
+for x in lista: 
+ print("*" + x + "*")# Se juntan las filas
