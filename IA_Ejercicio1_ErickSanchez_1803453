@@ -1,0 +1,14 @@
+#A2 Ejercicios basicos de Python
+#Erick Daniel Sanchez Rodriguez   1803453  Jueves N1-N3
+#Escribe un programa que le pida al usuario por sus nombres 
+# y que lo salude con su nombre, 
+# Excepeto "Ana" , "Juan" y "Pedro"
+
+a= "Ana"
+b= "Juan"
+c= "Pedro" #Se añaden las variables
+Nombre = input ("Ingresa tu usuario") #Aqui la persona pone su nombre 
+if a== Nombre or b== Nombre or c== Nombre:
+  print ("Este usuario no es válido")  #Saldra error si tiene alguna variable
+else:
+    print ("Bienvenido de vuelta " + Nombre) #Saldrá correcto con otro nombre
