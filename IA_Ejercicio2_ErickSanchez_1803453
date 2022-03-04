@@ -1,0 +1,11 @@
+#A2 Ejercicios basicos de Python
+#Erick Daniel Sanchez Rodriguez   1803453  Jueves N1-N3
+#Escribe una funcion que regrese el ultimo elemento de
+#una lista y que revierta el orden de la lista e imprima 
+#la lista revertida 
+Perros = ["Beagles", "Pitbull", "Pastor Aleman", "San Bernardo"]
+print(Perros[-1])
+Perros.reverse() #Se invierte la fila
+print("Lista invertida") #Se imprime la lista invertida
+for x in Perros:
+ print(x)
